@@ -28,5 +28,8 @@
     "version-snapshot": "lerna version --no-push --no-git-tag-version --yes --preid snapshot prepatch --force-publish",
     "version": "yarn install && git add .",
     "lerna": "lerna"
+  },
+  "dependencies": {
+    "webpack-bundle-analyzer": "^4.4.0"
   }
 }
